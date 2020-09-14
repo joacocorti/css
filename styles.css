@@ -53,24 +53,90 @@ footer{
     border: none;
     color: crimson;
 }
+@media ( max-width: 900px ) {
+    img{
+        
+        width: 500px;
+        background-position: center;
+    }
+    #carouselExampleControls{
+        width: 80%;
+        height: 300px;
+        margin-left: 0px;
+    }
+    .row{
+        width: 100%;
+    }
+    h1{
+        width: 90%;
+        margin-left: 0px;
+    }
+    h2{
+        width: 90%;
+        margin-left: 0px;
+    }
+    h4{
+        width: 90%;
+        margin-left: 0px;
+    }
+    h6{
+        width: 90%;
+        margin-left: 0px;
+    }
+    footer{
+        width: 90%;
+        margin-left: 0px;
+    }
+    nav{
+        width: 80%;
+        
+    }
+    p{
+        width: 90%;
+        margin-left: 0px; 
+    }
+    .navigation{
+        width: 90%;
+        margin-left: 0px;
+    }
+}
+
+
 @media ( max-width: 700px ) {
     .aguilaBounce {
     height: 200px;
     width: 300px;
     }
+    body{
+        width: 100% auto;
+    }
     img{
-        height: 100%;
-        width: 100%;
         
+        width: 100% auto;
+        background-position: center;
     }
     .carousel{
-        height: 300px;
+        float: none;
+        /* width: 240px; */
+        margin: 0px auto;
+        margin-top: 20px;
         width: 100%;
     }  
-    .video{
-        height: 100%;
-        width: 100%;
+
+    .aboutIcon{
+        height: 50px;
+        width: 50px; 
     }
+    .d-block{
+        width: 80% auto;
+    }
+
+}
+@media ( max-width: 600px ) {
+    iframe{
+        width: 400px ;
+    }
+
 
 }
 .carousel-item{
